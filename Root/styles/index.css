@@ -27,16 +27,17 @@ h1{
     margin-top: 2%;
 }
 
-.boton{
+.button{
     border-radius: 10px;
     background-color: rgb(211, 211, 211);
     color: darkgreen;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     padding: 1% 2%;
     margin-top: 2%;
 }
 
-.boton :hover{
+.button:hover{
     cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.596);
 }
