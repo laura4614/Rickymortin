@@ -5,11 +5,15 @@
 }
 
 img{
-    size: 2rem;
+    width: 400px;
 }
 
 div{
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
 }
 
 h1{
