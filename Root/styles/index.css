@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin:0;
     padding: 0;
+    font-family: 'Belanosima';
 }
 
 img{
@@ -23,16 +24,20 @@ div{
 h1{
     font-size: 40px;
     color: rgb(90, 190, 99);
+    margin-top: 2%;
 }
 
-.boton{
+.button{
     border-radius: 10px;
     background-color: rgb(211, 211, 211);
     color: darkgreen;
+    font-size: 20px;
     font-weight: bold;
     padding: 1% 2%;
+    margin-top: 2%;
 }
 
-.boton :hover{
+.button:hover{
     cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.596);
 }
