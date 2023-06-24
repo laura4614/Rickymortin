@@ -5,11 +5,14 @@
 }
 
 img{
-    width: 400px;
+    width: 350px;
+}
+
+body{
+    background-color: black;
 }
 
 div{
-    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,5 +22,17 @@ div{
 
 h1{
     font-size: 40px;
-    color: midnightblue;
+    color: rgb(90, 190, 99);
+}
+
+.boton{
+    border-radius: 10px;
+    background-color: rgb(211, 211, 211);
+    color: darkgreen;
+    font-weight: bold;
+    padding: 1% 2%;
+}
+
+.boton :hover{
+    cursor: pointer;
 }
